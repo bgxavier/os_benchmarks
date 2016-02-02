@@ -1,0 +1,55 @@
+heat_template_version: 2015-04-30
+
+description: Simple template to deploy a single compute instance
+
+resources:
+  haproxy:
+    type: OS::Nova::Server
+    properties:
+      image: haproxy
+      flavor: m2.small
+  cassandra:
+    type: OS::Nova::Server
+    properties:
+      image: cassandra
+      flavor: m2.small
+  apache-zookeeper:
+    type: OS::Nova::Server
+    properties:
+      image: apache-zookeeper
+      flavor: m2.small
+  apache-activemq:
+    type: OS::Nova::Server
+    properties:
+      image: apache-activemq
+      flavor: m2.small
+  tomcat:
+    type: OS::Nova::Server
+    properties:
+      image: tomcat
+      flavor: m2.small
+  apache-spark:
+    type: OS::Nova::Server
+    properties:
+      image: apache-spark
+      flavor: m2.small
+  memcached:
+    type: OS::Nova::Server
+    properties:
+      image: memcached
+      flavor: m2.small
+  redis-memonly:
+    type: OS::Nova::Server
+    properties:
+      image: redis-memonly
+      flavor: m2.small
+  solr:
+    type: OS::Nova::Server
+    properties:
+      image: solr
+      flavor: m2.small
+  mysql41:
+    type: OS::Nova::Server
+    properties:
+      image: mysql41
+      flavor: m2.small

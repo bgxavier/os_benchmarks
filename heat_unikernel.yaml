@@ -1,0 +1,55 @@
+heat_template_version: 2015-04-30
+
+description: Simple template to deploy a single compute instance
+
+resources:
+  haproxy:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/haproxy
+      flavor: m2.small
+  tomcat:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/tomcat
+      flavor: m2.small
+  apache-activemq:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/apache-activemq
+      flavor: m2.small
+  apache-spark:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/apache-spark
+      flavor: m2.small
+  apache-zookeeper:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/apache-zookeeper
+      flavor: m2.small
+  cassandra:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/cassandra
+      flavor: m2.small
+  memcached:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/memcached
+      flavor: m2.small
+  redis-memonly:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/redis-memonly
+      flavor: m2.small
+  solr:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/solr
+      flavor: m2.small
+  mysql41:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/mysql41
+      flavor: m2.small
