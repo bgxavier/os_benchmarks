@@ -4,7 +4,7 @@ rm -rfv /opt/osv_images/apache-spark;cd /opt/unikernels_workload/apache-spark;ma
 rm -rfv /opt/osv_images/cassandra;cd /opt/unikernels_workload/cassandra;make clean;capstan build
 rm -rfv /opt/osv_images/haproxy;cd /opt/unikernels_workload/haproxy;make clean;capstan build
 rm -rfv /opt/osv_images/memcached;cd /opt/unikernels_workload/memcached;make clean;capstan build
-rm -rfv /opt/osv_images/mysql41;cd /opt/unikernels_workload/mysql41;make clean;capstan build
 rm -rfv /opt/osv_images/redis-memonly;cd /opt/unikernels_workload/redis-memonly;make clean;capstan build
 rm -rfv /opt/osv_images/solr;cd /opt/unikernels_workload/solr;make clean;capstan build
 rm -rfv /opt/osv_images/tomcat;cd /opt/unikernels_workload/tomcat;make clean;capstan build
+rm -rfv /opt/osv_images/mysql41;cd /opt/unikernels_workload/mysql41;make clean;capstan build
