@@ -1,0 +1,19 @@
+rm -rfv /opt/osv_images/apache-activemq;cd /opt/unikernels_workload/apache-activemq;capstan build;glance image-delete apache-activemq;glance image-create --name apache-activemq --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/apache-activemq/apache-activemq.qemu
+
+rm -rfv /opt/osv_images/apache-zookeeper;cd /opt/unikernels_workload/apache-zookeeper;capstan build;glance image-delete apache-zookeeper;glance image-create --name apache-zookeeper --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/apache-zookeeper/apache-zookeeper.qemu
+
+rm -rfv /opt/osv_images/apache-spark;cd /opt/unikernels_workload/apache-spark;capstan build;glance image-delete apache-spark;glance image-create --name apache-spark --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/apache-spark/apache-spark.qemu
+
+rm -rfv /opt/osv_images/cassandra;cd /opt/unikernels_workload/cassandra;capstan build;glance image-delete cassandra;glance image-create --name cassandra --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/cassandra/cassandra.qemu
+
+rm -rfv /opt/osv_images/haproxy;cd /opt/unikernels_workload/haproxy;capstan build;glance image-delete haproxy;glance image-create --name haproxy --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/haproxy/haproxy.qemu
+
+rm -rfv /opt/osv_images/memcached;cd /opt/unikernels_workload/memcached;capstan build;glance image-delete memcached;glance image-create --name memcached --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/memcached/memcached.qemu
+
+rm -rfv /opt/osv_images/redis-memonly;cd /opt/unikernels_workload/redis-memonly;capstan build;glance image-delete redis-memonly;glance image-create --name redis-memonly --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/redis-memonly/redis-memonly.qemu
+
+rm -rfv /opt/osv_images/solr;cd /opt/unikernels_workload/solr;capstan build;glance image-delete solr;glance image-create --name solr --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/solr/solr.qemu
+
+rm -rfv /opt/osv_images/tomcat;cd /opt/unikernels_workload/tomcat;capstan build;glance image-delete tomcat;glance image-create --name tomcat --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/tomcat/tomcat.qemu
+
+rm -rfv /opt/osv_images/mysql41;cd /opt/unikernels_workload/mysql41;capstan build;glance image-delete mysql41;glance image-create --name mysql41 --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/mysql41/mysql41.qemu

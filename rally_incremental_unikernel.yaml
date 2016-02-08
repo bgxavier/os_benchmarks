@@ -2,7 +2,7 @@
   HeatStacks.create_and_delete_stack:
     -
       args:
-        template_path: "hello.yaml"
+        template_path: "heat_incremental_unikernel.yaml"
       runner:
         type: "constant"
         times: 1
