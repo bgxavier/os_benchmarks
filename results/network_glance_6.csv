@@ -1,9 +1,3 @@
-"Dstat 0.7.2 CSV output"
-"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
-"Host:","controller",,,,"User:","root"
-"Cmdline:","dstat -n --output network_glance_6.csv",,,,"Date:","08 Feb 2016 22:00:42 BRST"
-
-"net/total",
 "recv","send"
 0.0,0.0
 698.0,568.0

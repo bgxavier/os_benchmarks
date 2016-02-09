@@ -1,15 +1,4 @@
-"Dstat 0.7.2 CSV output"
-"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
-"Host:","controller",,,,"User:","root"
-"Cmdline:","dstat -n --output network_glance_3.csv",,,,"Date:","08 Feb 2016 22:02:26 BRST"
-
-"net/total",
 "recv","send"
-0.0,0.0
-134.0,214.0
-134.0,166.0
-134.0,166.0
-134.0,166.0
 4183.0,2372.0
 31355253.0,309709.0
 123314864.0,1181766.0
@@ -23,6 +12,3 @@
 123027249.0,1145425.0
 66958760.0,624482.0
 1039.0,166.0
-134.0,166.0
-134.0,166.0
-134.0,166.0
