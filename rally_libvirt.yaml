@@ -1,0 +1,14 @@
+---
+  HeatStacks.create_and_delete_stack:
+    -
+      args:
+        template_path: "heat_libvirt.yaml"
+      runner:
+        type: "constant"
+        times: 1
+        concurrency: 1
+      context:
+        users:
+          tenants: 1
+          users_per_tenant: 1
+
