@@ -1,0 +1,8 @@
+
+rm -rfv /opt/osv_images/haproxy;cd /opt/unikernels_workload/haproxy;capstan build;glance image-delete haproxy;glance image-create --name haproxy --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/haproxy/haproxy.qemu
+
+rm -rfv /opt/osv_images/memcached;cd /opt/unikernels_workload/memcached;capstan build;glance image-delete memcached;glance image-create --name memcached --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/memcached/memcached.qemu
+
+rm -rfv /opt/osv_images/redis-memonly;cd /opt/unikernels_workload/redis-memonly;capstan build;glance image-delete redis-memonly;glance image-create --name redis-memonly --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/redis-memonly/redis-memonly.qemu
+
+rm -rfv /opt/osv_images/mysql41;cd /opt/unikernels_workload/mysql41;capstan build;glance image-delete mysql41;glance image-create --name mysql41 --is-public True --disk-format qcow2 --container-format bare --file /opt/osv_images/mysql41/mysql41.qemu
