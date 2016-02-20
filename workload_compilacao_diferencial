@@ -1,0 +1,10 @@
+rm -rfv /opt/osv_images/apache-activemq;cd /opt/unikernels_workload/apache-activemq;capstan build -m '512M'
+rm -rfv /opt/osv_images/apache-zookeeper;cd /opt/unikernels_workload/apache-zookeeper;capstan build -m '512M'
+rm -rfv /opt/osv_images/apache-spark;cd /opt/unikernels_workload/apache-spark;capstan build -m '512M'
+rm -rfv /opt/osv_images/cassandra;cd /opt/unikernels_workload/cassandra;capstan build
+rm -rfv /opt/osv_images/haproxy;cd /opt/unikernels_workload/haproxy;capstan build
+rm -rfv /opt/osv_images/memcached;cd /opt/unikernels_workload/memcached;capstan build
+rm -rfv /opt/osv_images/redis-memonly;cd /opt/unikernels_workload/redis-memonly;capstan build
+rm -rfv /opt/osv_images/solr;cd /opt/unikernels_workload/solr;capstan build
+rm -rfv /opt/osv_images/tomcat;cd /opt/unikernels_workload/tomcat;capstan build
+rm -rfv /opt/osv_images/mysql41;cd /opt/unikernels_workload/mysql41;capstan build
