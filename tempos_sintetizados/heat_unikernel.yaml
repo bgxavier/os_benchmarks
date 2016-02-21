@@ -3,53 +3,53 @@ heat_template_version: 2015-04-30
 description: Simple template to deploy a single compute instance
 
 resources:
-  apache-activemq:
+  unikernel01:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/apache-activemq
+      image: git@10.32.45.217:/opt/git/unikernel01
+      flavor: m1.small
+  unikernel02:
+    type: OS::Nova::Server
+    properties:
+      image: git@10.32.45.217:/opt/git/unikernel02
       flavor: m2.small
-  apache-zookeeper:
+  unikernel03:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/apache-zookeeper
+      image: git@10.32.45.217:/opt/git/unikernel03
       flavor: m2.small
-  apache-spark:
+  unikernel04:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/apache-spark
+      image: git@10.32.45.217:/opt/git/unikernel04
       flavor: m2.small
-  cassandra:
+  unikernel05:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/cassandra
+      image: git@10.32.45.217:/opt/git/unikernel05
       flavor: m2.small
-  haproxy:
+  unikernel06:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/haproxy
+      image: git@10.32.45.217:/opt/git/unikernel06
       flavor: m2.small
-  memcached:
+  unikernel07:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/memcached
+      image: git@10.32.45.217:/opt/git/unikernel07
       flavor: m2.small
-  redis-memonly:
+  unikernel08:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/redis-memonly
+      image: git@10.32.45.217:/opt/git/unikernel08
       flavor: m2.small
-  solr:
+  unikernel09:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/solr
+      image: git@10.32.45.217:/opt/git/unikernel09
       flavor: m2.small
-  tomcat:
+  unikernel10:
     type: OS::Nova::Server
     properties:
-      image: git@10.32.45.217:/opt/git/tomcat
-      flavor: m2.small
-  mysql41:
-    type: OS::Nova::Server
-    properties:
-      image: git@10.32.45.217:/opt/git/mysql41
+      image: git@10.32.45.217:/opt/git/unikernel10
       flavor: m2.small

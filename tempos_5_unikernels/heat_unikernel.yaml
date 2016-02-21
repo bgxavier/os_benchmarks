@@ -6,25 +6,25 @@ resources:
   haproxy:
     type: OS::Nova::Server
     properties:
-      image: haproxy
+      image: git@10.32.45.217:/opt/git/haproxy
       flavor: m2.small
   memcached:
     type: OS::Nova::Server
     properties:
-      image: memcached
+      image: git@10.32.45.217:/opt/git/memcached
       flavor: m2.small
   redis-memonly:
     type: OS::Nova::Server
     properties:
-      image: redis-memonly
+      image: git@10.32.45.217:/opt/git/redis-memonly
       flavor: m2.small
   mysql41:
     type: OS::Nova::Server
     properties:
-      image: mysql41
+      image: git@10.32.45.217:/opt/git/mysql41
       flavor: m2.small
   node:
     type: OS::Nova::Server
     properties:
-      image: node
+      image: git@10.32.45.217:/opt/git/node
       flavor: m2.small

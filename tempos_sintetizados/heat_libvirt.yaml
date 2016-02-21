@@ -1,0 +1,76 @@
+resources:
+  unikernel01:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel01
+      flavor: m2.small
+  unikernel02:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel02
+      flavor: m2.small
+  unikernel03:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel03
+      flavor: m2.small
+  unikernel04:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel04
+      flavor: m2.small
+  unikernel05:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel05
+      flavor: m2.small
+  unikernel06:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel06
+      flavor: m2.small
+  unikernel07:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel07
+      flavor: m2.small
+  unikernel08:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel08
+      flavor: m2.small
+  unikernel09:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel09
+      flavor: m2.small
+  unikernel10:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel10
+      flavor: m2.small
+  unikernel11:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel11
+      flavor: m2.small
+  unikernel12:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel12
+      flavor: m2.small
+  unikernel13:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel13
+      flavor: m2.small
+  unikernel14:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel14
+      flavor: m2.small
+  unikernel15:
+    type: OS::Nova::Server
+    properties:
+      image: unikernel15
+      flavor: m2.small
