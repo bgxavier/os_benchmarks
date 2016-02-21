@@ -1,8 +1,3 @@
-"Dstat 0.7.2 CSV output"
-"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
-"Host:","compute",,,,"User:","root"
-"Cmdline:","dstat -cm --output read_write_unikernel.csv 1 50",,,,"Date:","21 Feb 2016 01:44:09 BRT"
-
 "total cpu usage",,,,,,"memory usage",,,
 "usr","sys","idl","wai","hiq","siq","used","buff","cach","free"
 0.822,0.483,98.671,0.023,0.000,0.001,2709024768.0,426340352.0,10015555584.0,1.22005610496e+11

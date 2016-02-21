@@ -1,8 +1,3 @@
-"Dstat 0.7.2 CSV output"
-"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
-"Host:","compute",,,,"User:","root"
-"Cmdline:","dstat -cm --output read_write_libvirt.csv 1 50",,,,"Date:","21 Feb 2016 01:50:00 BRT"
-
 "total cpu usage",,,,,,"memory usage",,,
 "usr","sys","idl","wai","hiq","siq","used","buff","cach","free"
 0.822,0.483,98.671,0.023,0.000,0.001,2700292096.0,427241472.0,10019233792.0,1.2200976384e+11
