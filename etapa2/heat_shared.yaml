@@ -1,0 +1,30 @@
+heat_template_version: 2015-04-30
+
+description: Simple template to deploy a single compute instance
+
+resources:
+  activemq:
+    type: OS::Nova::Server
+    properties:
+      image: bxavier/activemq
+      flavor: m2.small
+  haproxy:
+    type: OS::Nova::Server
+    properties:
+      image: bxavier/haproxy
+      flavor: m2.small
+  memcached:
+    type: OS::Nova::Server
+    properties:
+      image: bxavier/memcached
+      flavor: m2.small
+  redis:
+    type: OS::Nova::Server
+    properties:
+      image: bxavier/redis
+      flavor: m2.small
+  tomcat:
+    type: OS::Nova::Server
+    properties:
+      image: bxavier/tomcat
+      flavor: m2.small
