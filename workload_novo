@@ -1,0 +1,10 @@
+rm -rfv /opt/osv_images/007e5311-faf1-4df6-86b4-8174427d9785;cd /opt/stack/data/unikernel/007e5311-faf1-4df6-86b4-8174427d9785;capstan build
+rm -rfv /opt/osv_images/393399d2-9a2d-4b37-9991-d3cb434dfcae;cd /opt/stack/data/unikernel/393399d2-9a2d-4b37-9991-d3cb434dfcae;capstan build
+rm -rfv /opt/osv_images/540a10c8-0f66-4835-858e-35da914c8e00;cd /opt/stack/data/unikernel/540a10c8-0f66-4835-858e-35da914c8e00;capstan build
+rm -rfv /opt/osv_images/6ea69507-1621-416d-9de1-31c281fca90c;cd /opt/stack/data/unikernel/6ea69507-1621-416d-9de1-31c281fca90c;capstan build
+rm -rfv /opt/osv_images/7c8930fa-b3f6-4d59-88a9-4a79e2f9c169;cd /opt/stack/data/unikernel/7c8930fa-b3f6-4d59-88a9-4a79e2f9c169;capstan build
+rm -rfv /opt/osv_images/8e303e44-23d2-42b6-9db8-48c713593f5b;cd /opt/stack/data/unikernel/8e303e44-23d2-42b6-9db8-48c713593f5b;capstan build
+rm -rfv /opt/osv_images/b3fc9d5a-d71f-4beb-8856-88101f4d77fe;cd /opt/stack/data/unikernel/b3fc9d5a-d71f-4beb-8856-88101f4d77fe;capstan build
+rm -rfv /opt/osv_images/d858e5c3-a832-4eca-bcc7-3aee11e14bdb;cd /opt/stack/data/unikernel/d858e5c3-a832-4eca-bcc7-3aee11e14bdb;capstan build
+rm -rfv /opt/osv_images/d9d5b7ca-970d-4171-8c63-e1f5cdc2e8a8;cd /opt/stack/data/unikernel/d9d5b7ca-970d-4171-8c63-e1f5cdc2e8a8;capstan build
+rm -rfv /opt/osv_images/f788b1c3-bc5a-4e99-a818-32c32b70add2;cd /opt/stack/data/unikernel/f788b1c3-bc5a-4e99-a818-32c32b70add2;capstan build
